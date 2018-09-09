@@ -1,0 +1,80 @@
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\bin\Debug\TPshop.Data.dll.config
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\bin\Debug\TPshop.Data.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\bin\Debug\TPshop.Data.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\bin\Debug\EntityFramework.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\bin\Debug\TPshop.Common.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\bin\Debug\TPshop.Model.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\bin\Debug\TPshop.Common.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\bin\Debug\TPshop.Model.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\bin\Debug\EntityFramework.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\obj\Debug\TPshop.Data.csprojResolveAssemblyReference.cache
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\obj\Debug\TPshop.Data.Migrations.InitialBD.resources
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\obj\Debug\TPshop.Data.Migrations.InitialDB.resources
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\obj\Debug\TPshop.Data.Migrations.InitialDB1.resources
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\obj\Debug\TPshop.Data.Migrations.ChangeNameTable_Indentity.resources
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\obj\Debug\TPshop.Data.Migrations.AddTableIdentity.resources
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\obj\Debug\TPshop.Data.Migrations.Initial.resources
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\obj\Debug\TPshop.Data.csproj.GenerateResource.Cache
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\obj\Debug\TPshop.Data.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\obj\Debug\TPshop.Data.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Data\obj\Debug\TPshop.Data.Migrations.ChangeDB1708.resources
+D:\Temp\TPshop\TPshop.Data\bin\Debug\TPshop.Data.dll.config
+D:\Temp\TPshop\TPshop.Data\bin\Debug\TPshop.Data.dll
+D:\Temp\TPshop\TPshop.Data\bin\Debug\TPshop.Data.pdb
+D:\Temp\TPshop\TPshop.Data\bin\Debug\EntityFramework.dll
+D:\Temp\TPshop\TPshop.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Temp\TPshop\TPshop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Temp\TPshop\TPshop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Temp\TPshop\TPshop.Data\bin\Debug\TPshop.Common.dll
+D:\Temp\TPshop\TPshop.Data\bin\Debug\TPshop.Model.dll
+D:\Temp\TPshop\TPshop.Data\bin\Debug\TPshop.Common.pdb
+D:\Temp\TPshop\TPshop.Data\bin\Debug\TPshop.Model.pdb
+D:\Temp\TPshop\TPshop.Data\bin\Debug\EntityFramework.xml
+D:\Temp\TPshop\TPshop.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Temp\TPshop\TPshop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Temp\TPshop\TPshop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Temp\TPshop\TPshop.Data\obj\Debug\TPshop.Data.Migrations.InitialBD.resources
+D:\Temp\TPshop\TPshop.Data\obj\Debug\TPshop.Data.Migrations.InitialDB.resources
+D:\Temp\TPshop\TPshop.Data\obj\Debug\TPshop.Data.Migrations.InitialDB1.resources
+D:\Temp\TPshop\TPshop.Data\obj\Debug\TPshop.Data.Migrations.ChangeNameTable_Indentity.resources
+D:\Temp\TPshop\TPshop.Data\obj\Debug\TPshop.Data.Migrations.AddTableIdentity.resources
+D:\Temp\TPshop\TPshop.Data\obj\Debug\TPshop.Data.Migrations.Initial.resources
+D:\Temp\TPshop\TPshop.Data\obj\Debug\TPshop.Data.Migrations.ChangeDB1708.resources
+D:\Temp\TPshop\TPshop.Data\obj\Debug\TPshop.Data.csproj.GenerateResource.Cache
+D:\Temp\TPshop\TPshop.Data\obj\Debug\TPshop.Data.dll
+D:\Temp\TPshop\TPshop.Data\obj\Debug\TPshop.Data.pdb
+D:\Temp\TPshop\TPshop.Data\bin\Debug\TPshop.Model.dll.config
+D:\Temp\TPshop\TPshop.Data\obj\Debug\TPshop.Data.csprojAssemblyReference.cache
+D:\Temp\TPshop\TPshop.Data\obj\Debug\TPshop.Data.csproj.CoreCompileInputs.cache
+D:\Temp\TPshop\TPshop.Data\obj\Debug\TPshop.Data.csproj.CopyComplete
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\bin\Debug\TPshop.Data.dll.config
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\bin\Debug\TPshop.Data.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\bin\Debug\TPshop.Data.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\bin\Debug\EntityFramework.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\bin\Debug\TPshop.Common.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\bin\Debug\TPshop.Model.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\bin\Debug\TPshop.Common.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\bin\Debug\TPshop.Model.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\bin\Debug\TPshop.Model.dll.config
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\bin\Debug\EntityFramework.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\obj\Debug\TPshop.Data.csprojAssemblyReference.cache
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\obj\Debug\TPshop.Data.Migrations.InitDB.resources
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\obj\Debug\TPshop.Data.Migrations.ContentToMax.resources
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\obj\Debug\TPshop.Data.Migrations.DeleteProductDetail.resources
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\obj\Debug\TPshop.Data.csproj.GenerateResource.cache
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\obj\Debug\TPshop.Data.csproj.CoreCompileInputs.cache
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\obj\Debug\TPshop.Data.csproj.CopyComplete
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\obj\Debug\TPshop.Data.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Data\obj\Debug\TPshop.Data.pdb

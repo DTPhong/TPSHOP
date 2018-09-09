@@ -1,0 +1,126 @@
+﻿@model IEnumerable<TPshop.Web.Models.OrderViewModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layouts.cshtml";
+}
+
+
+
+
+<!-- BREADCRUMB -->
+<div id="breadcrumb" class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="breadcrumb-header">History Page</h3>
+                <ul class="breadcrumb-tree">
+                    <li><a href="#">Home</a></li>
+                    <li class="active">History</li>
+                </ul>
+            </div>
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /BREADCRUMB -->
+<!-- SECTION -->
+<div class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <table class="table">
+                <tr>
+                    <th>
+                        <p>Order ID</p>
+                    </th>
+                    <th>
+                        <p>Created date</p>
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PaymentMethod)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PaymentStatus)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Status)
+                    </th>
+                    <th>Detail</th>
+                    <th>Price per unit</th>
+                    <th>Total</th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    decimal total = 0;
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ID)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CreateData)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PaymentMethod)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PaymentStatus)
+                        </td>
+                        <td>
+                            @if (item.Status == null)
+                            {
+                                <p>Processing</p>
+                            }
+                            else if (item.Status == false)
+                            {
+                                <p>Cancel</p>
+                            }
+                            else
+                            {
+                                <p>Shipped</p>
+                            }
+                        </td>
+                        <td>
+                            @foreach (var itemDetail in item.OrderDetails)
+                            {
+                                if (itemDetail.Promotion.HasValue)
+                                {
+                                    total += Convert.ToDecimal(itemDetail.Quantity) * Convert.ToDecimal(itemDetail.Promotion);
+                                }
+                                else
+                                {
+                                    total += Convert.ToDecimal(itemDetail.Quantity) * Convert.ToDecimal(itemDetail.Price);
+                                }
+                                <p>@itemDetail.Quantity x @itemDetail.Product.Name</p>
+                            }
+                        </td>
+                        <td>
+                            @foreach (var itemDetail in item.OrderDetails)
+                            {
+                                if (itemDetail.Promotion.HasValue)
+                                {
+                                    <p>$ @itemDetail.Promotion</p>
+                                }
+                                else
+                                {
+                                    <p>$ @itemDetail.Price</p>
+                                }
+                            }
+                        </td>
+                        <td>
+                            $ @total
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /SECTION -->

@@ -1,0 +1,359 @@
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\roslyn\csc.exe
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\roslyn\vbc.exe
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\TPshop.Web.dll.config
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\TPshop.Web.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\TPshop.Web.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Antlr3.Runtime.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Autofac.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Autofac.Integration.Mvc.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Autofac.Integration.WebApi.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\AutoMapper.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\EntityFramework.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Microsoft.Owin.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Newtonsoft.Json.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Owin.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.ValueTuple.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Web.Helpers.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Web.Http.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Web.Mvc.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Web.Optimization.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Web.Razor.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Web.WebPages.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\TPshop.Common.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\TPshop.Data.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\TPshop.Model.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\TPshop.Service.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\WebGrease.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\TPshop.Common.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\TPshop.Data.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\TPshop.Model.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\TPshop.Service.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Autofac.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Autofac.Integration.Mvc.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Autofac.Integration.WebApi.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Autofac.Integration.WebApi.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\AutoMapper.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\EntityFramework.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Microsoft.Owin.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.ValueTuple.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Web.Helpers.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Web.Mvc.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Web.Optimization.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Web.Razor.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Web.WebPages.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Antlr3.Runtime.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\Newtonsoft.Json.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Web.Http.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\obj\Debug\TPshop.Web.csprojResolveAssemblyReference.cache
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\obj\Debug\TPshop.Web.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\obj\Debug\TPshop.Web.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Web\bin\CKFinder.dll
+D:\TPshop\TPshop.Web\bin\roslyn\csc.exe
+D:\TPshop\TPshop.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TPshop\TPshop.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TPshop\TPshop.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TPshop\TPshop.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TPshop\TPshop.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TPshop\TPshop.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TPshop\TPshop.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\TPshop\TPshop.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\TPshop\TPshop.Web\bin\roslyn\vbc.exe
+D:\TPshop\TPshop.Web\bin\roslyn\VBCSCompiler.exe
+D:\TPshop\TPshop.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\TPshop\TPshop.Web\bin\TPshop.Web.dll.config
+D:\TPshop\TPshop.Web\bin\TPshop.Web.dll
+D:\TPshop\TPshop.Web\bin\TPshop.Web.pdb
+D:\TPshop\TPshop.Web\bin\Antlr3.Runtime.dll
+D:\TPshop\TPshop.Web\bin\Autofac.dll
+D:\TPshop\TPshop.Web\bin\Autofac.Integration.Mvc.dll
+D:\TPshop\TPshop.Web\bin\Autofac.Integration.WebApi.dll
+D:\TPshop\TPshop.Web\bin\AutoMapper.dll
+D:\TPshop\TPshop.Web\bin\CKFinder.dll
+D:\TPshop\TPshop.Web\bin\EntityFramework.dll
+D:\TPshop\TPshop.Web\bin\EntityFramework.SqlServer.dll
+D:\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\TPshop\TPshop.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TPshop\TPshop.Web\bin\Microsoft.Owin.dll
+D:\TPshop\TPshop.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.dll
+D:\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\TPshop\TPshop.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\TPshop\TPshop.Web\bin\Newtonsoft.Json.dll
+D:\TPshop\TPshop.Web\bin\Owin.dll
+D:\TPshop\TPshop.Web\bin\System.Net.Http.Formatting.dll
+D:\TPshop\TPshop.Web\bin\System.ValueTuple.dll
+D:\TPshop\TPshop.Web\bin\System.Web.Helpers.dll
+D:\TPshop\TPshop.Web\bin\System.Web.Http.dll
+D:\TPshop\TPshop.Web\bin\System.Web.Http.WebHost.dll
+D:\TPshop\TPshop.Web\bin\System.Web.Mvc.dll
+D:\TPshop\TPshop.Web\bin\System.Web.Optimization.dll
+D:\TPshop\TPshop.Web\bin\System.Web.Razor.dll
+D:\TPshop\TPshop.Web\bin\System.Web.WebPages.Deployment.dll
+D:\TPshop\TPshop.Web\bin\System.Web.WebPages.dll
+D:\TPshop\TPshop.Web\bin\System.Web.WebPages.Razor.dll
+D:\TPshop\TPshop.Web\bin\TPshop.Common.dll
+D:\TPshop\TPshop.Web\bin\TPshop.Data.dll
+D:\TPshop\TPshop.Web\bin\TPshop.Model.dll
+D:\TPshop\TPshop.Web\bin\TPshop.Service.dll
+D:\TPshop\TPshop.Web\bin\WebGrease.dll
+D:\TPshop\TPshop.Web\bin\TPshop.Common.pdb
+D:\TPshop\TPshop.Web\bin\TPshop.Data.pdb
+D:\TPshop\TPshop.Web\bin\TPshop.Model.pdb
+D:\TPshop\TPshop.Web\bin\TPshop.Service.pdb
+D:\TPshop\TPshop.Web\bin\Autofac.xml
+D:\TPshop\TPshop.Web\bin\Autofac.Integration.Mvc.xml
+D:\TPshop\TPshop.Web\bin\Autofac.Integration.WebApi.pdb
+D:\TPshop\TPshop.Web\bin\Autofac.Integration.WebApi.xml
+D:\TPshop\TPshop.Web\bin\AutoMapper.xml
+D:\TPshop\TPshop.Web\bin\EntityFramework.xml
+D:\TPshop\TPshop.Web\bin\EntityFramework.SqlServer.xml
+D:\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\TPshop\TPshop.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TPshop\TPshop.Web\bin\Microsoft.Owin.xml
+D:\TPshop\TPshop.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.xml
+D:\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\TPshop\TPshop.Web\bin\System.ValueTuple.xml
+D:\TPshop\TPshop.Web\bin\System.Web.Helpers.xml
+D:\TPshop\TPshop.Web\bin\System.Web.Mvc.xml
+D:\TPshop\TPshop.Web\bin\System.Web.Optimization.xml
+D:\TPshop\TPshop.Web\bin\System.Web.Razor.xml
+D:\TPshop\TPshop.Web\bin\System.Web.WebPages.xml
+D:\TPshop\TPshop.Web\bin\System.Web.WebPages.Deployment.xml
+D:\TPshop\TPshop.Web\bin\System.Web.WebPages.Razor.xml
+D:\TPshop\TPshop.Web\bin\Antlr3.Runtime.pdb
+D:\TPshop\TPshop.Web\bin\Newtonsoft.Json.xml
+D:\TPshop\TPshop.Web\bin\System.Net.Http.Formatting.xml
+D:\TPshop\TPshop.Web\bin\System.Web.Http.xml
+D:\TPshop\TPshop.Web\bin\System.Web.Http.WebHost.xml
+D:\TPshop\TPshop.Web\obj\Debug\TPshop.Web.csprojResolveAssemblyReference.cache
+D:\TPshop\TPshop.Web\obj\Debug\TPshop.Web.dll
+D:\TPshop\TPshop.Web\obj\Debug\TPshop.Web.pdb
+D:\Temp\TPshop\TPshop.Web\bin\roslyn\csc.exe
+D:\Temp\TPshop\TPshop.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Temp\TPshop\TPshop.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Temp\TPshop\TPshop.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Temp\TPshop\TPshop.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Temp\TPshop\TPshop.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Temp\TPshop\TPshop.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Temp\TPshop\TPshop.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Temp\TPshop\TPshop.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Temp\TPshop\TPshop.Web\bin\roslyn\vbc.exe
+D:\Temp\TPshop\TPshop.Web\bin\roslyn\VBCSCompiler.exe
+D:\Temp\TPshop\TPshop.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\Temp\TPshop\TPshop.Web\bin\TPshop.Web.dll
+D:\Temp\TPshop\TPshop.Web\bin\TPshop.Web.pdb
+D:\Temp\TPshop\TPshop.Web\bin\Antlr3.Runtime.dll
+D:\Temp\TPshop\TPshop.Web\bin\Autofac.dll
+D:\Temp\TPshop\TPshop.Web\bin\Autofac.Integration.Mvc.dll
+D:\Temp\TPshop\TPshop.Web\bin\Autofac.Integration.WebApi.dll
+D:\Temp\TPshop\TPshop.Web\bin\AutoMapper.dll
+D:\Temp\TPshop\TPshop.Web\bin\CKFinder.dll
+D:\Temp\TPshop\TPshop.Web\bin\EntityFramework.dll
+D:\Temp\TPshop\TPshop.Web\bin\EntityFramework.SqlServer.dll
+D:\Temp\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Temp\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Temp\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Temp\TPshop\TPshop.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Temp\TPshop\TPshop.Web\bin\Microsoft.Owin.dll
+D:\Temp\TPshop\TPshop.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Temp\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Temp\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.dll
+D:\Temp\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Temp\TPshop\TPshop.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Temp\TPshop\TPshop.Web\bin\Newtonsoft.Json.dll
+D:\Temp\TPshop\TPshop.Web\bin\Owin.dll
+D:\Temp\TPshop\TPshop.Web\bin\System.Net.Http.Formatting.dll
+D:\Temp\TPshop\TPshop.Web\bin\System.ValueTuple.dll
+D:\Temp\TPshop\TPshop.Web\bin\System.Web.Helpers.dll
+D:\Temp\TPshop\TPshop.Web\bin\System.Web.Http.dll
+D:\Temp\TPshop\TPshop.Web\bin\System.Web.Http.WebHost.dll
+D:\Temp\TPshop\TPshop.Web\bin\System.Web.Mvc.dll
+D:\Temp\TPshop\TPshop.Web\bin\System.Web.Optimization.dll
+D:\Temp\TPshop\TPshop.Web\bin\System.Web.Razor.dll
+D:\Temp\TPshop\TPshop.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Temp\TPshop\TPshop.Web\bin\System.Web.WebPages.dll
+D:\Temp\TPshop\TPshop.Web\bin\System.Web.WebPages.Razor.dll
+D:\Temp\TPshop\TPshop.Web\bin\TPshop.Common.dll
+D:\Temp\TPshop\TPshop.Web\bin\TPshop.Data.dll
+D:\Temp\TPshop\TPshop.Web\bin\TPshop.Model.dll
+D:\Temp\TPshop\TPshop.Web\bin\TPshop.Service.dll
+D:\Temp\TPshop\TPshop.Web\bin\WebGrease.dll
+D:\Temp\TPshop\TPshop.Web\bin\TPshop.Common.pdb
+D:\Temp\TPshop\TPshop.Web\bin\TPshop.Data.pdb
+D:\Temp\TPshop\TPshop.Web\bin\TPshop.Model.pdb
+D:\Temp\TPshop\TPshop.Web\bin\TPshop.Service.pdb
+D:\Temp\TPshop\TPshop.Web\bin\Autofac.xml
+D:\Temp\TPshop\TPshop.Web\bin\Autofac.Integration.Mvc.xml
+D:\Temp\TPshop\TPshop.Web\bin\Autofac.Integration.WebApi.pdb
+D:\Temp\TPshop\TPshop.Web\bin\Autofac.Integration.WebApi.xml
+D:\Temp\TPshop\TPshop.Web\bin\AutoMapper.xml
+D:\Temp\TPshop\TPshop.Web\bin\EntityFramework.xml
+D:\Temp\TPshop\TPshop.Web\bin\EntityFramework.SqlServer.xml
+D:\Temp\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Temp\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Temp\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Temp\TPshop\TPshop.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Temp\TPshop\TPshop.Web\bin\Microsoft.Owin.xml
+D:\Temp\TPshop\TPshop.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Temp\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.xml
+D:\Temp\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Temp\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Temp\TPshop\TPshop.Web\bin\System.ValueTuple.xml
+D:\Temp\TPshop\TPshop.Web\bin\System.Web.Helpers.xml
+D:\Temp\TPshop\TPshop.Web\bin\System.Web.Mvc.xml
+D:\Temp\TPshop\TPshop.Web\bin\System.Web.Optimization.xml
+D:\Temp\TPshop\TPshop.Web\bin\System.Web.Razor.xml
+D:\Temp\TPshop\TPshop.Web\bin\System.Web.WebPages.xml
+D:\Temp\TPshop\TPshop.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Temp\TPshop\TPshop.Web\bin\System.Web.WebPages.Razor.xml
+D:\Temp\TPshop\TPshop.Web\bin\Antlr3.Runtime.pdb
+D:\Temp\TPshop\TPshop.Web\bin\Newtonsoft.Json.xml
+D:\Temp\TPshop\TPshop.Web\bin\System.Net.Http.Formatting.xml
+D:\Temp\TPshop\TPshop.Web\bin\System.Web.Http.xml
+D:\Temp\TPshop\TPshop.Web\bin\System.Web.Http.WebHost.xml
+D:\Temp\TPshop\TPshop.Web\obj\Debug\TPshop.Web.dll
+D:\Temp\TPshop\TPshop.Web\obj\Debug\TPshop.Web.pdb
+D:\Temp\TPshop\TPshop.Web\bin\TPshop.Data.dll.config
+D:\Temp\TPshop\TPshop.Web\bin\TPshop.Model.dll.config
+D:\Temp\TPshop\TPshop.Web\bin\TPshop.Web.dll.config
+D:\Temp\TPshop\TPshop.Web\obj\Debug\TPshop.Web.csprojAssemblyReference.cache
+D:\Temp\TPshop\TPshop.Web\obj\Debug\TPshop.Web.csproj.CoreCompileInputs.cache
+D:\Temp\TPshop\TPshop.Web\obj\Debug\TPshop.Web.csproj.CopyComplete
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\obj\Debug\TPshop.Web.csprojAssemblyReference.cache
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\obj\Debug\TPshop.Web.csproj.CoreCompileInputs.cache
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\roslyn\csc.exe
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\roslyn\vbc.exe
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\TPshop.Web.dll.config
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\TPshop.Web.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\TPshop.Web.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Antlr3.Runtime.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Autofac.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Autofac.Integration.Mvc.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Autofac.Integration.WebApi.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\AutoMapper.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\CKFinder.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\EntityFramework.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Microsoft.Owin.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Newtonsoft.Json.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Owin.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.ValueTuple.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.Helpers.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.Http.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.Http.Owin.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.Mvc.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.Optimization.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.Razor.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.WebPages.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\TPshop.Common.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\TPshop.Data.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\TPshop.Model.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\TPshop.Service.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\WebGrease.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\TPshop.Common.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\TPshop.Data.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\TPshop.Data.dll.config
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\TPshop.Model.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\TPshop.Model.dll.config
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\TPshop.Service.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Autofac.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Autofac.Integration.Mvc.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Autofac.Integration.WebApi.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Autofac.Integration.WebApi.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\AutoMapper.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\AutoMapper.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\EntityFramework.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Microsoft.Owin.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.ValueTuple.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.Http.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.Http.Owin.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.Helpers.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.Mvc.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.Optimization.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.Razor.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.WebPages.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Antlr3.Runtime.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\Newtonsoft.Json.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\obj\Debug\TPshop.Web.csproj.CopyComplete
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\obj\Debug\TPshop.Web.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Web\obj\Debug\TPshop.Web.pdb

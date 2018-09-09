@@ -1,0 +1,89 @@
+﻿<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        Category management
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Homepage</a></li>
+        <li><a ui-sref="categories">Category</a></li>
+        <li class="active">Edit</li>
+    </ol>
+</section>
+<!-- Main content -->
+<section class="content">
+
+    <div class="box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title">Update category: {{category.Name}}</h3>
+        </div>
+        <!-- /.box-header -->
+        <!-- form start -->
+        <form class="form-horizontal" novalidate name="frmUpdateCategory" role="form" ng-submit="UpdateCategory()">
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Name</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" ng-change="GetSeoTitle()" name="name" ng-model="category.Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Alias</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="alias" ng-model="category.Alias" disabled>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">Category group</label>
+
+                    <div class="col-sm-10">
+                        <select name="categoryGroupID" class="form-control" ng-model="category.CategoryGroupID" ng-options="option.ID as option.Name for option in categoryGroups">
+                            <option value="">none</option>
+                        </select>
+                        <input type="hidden" name="categoryGroupID" ng-model="category.CategoryGroupID" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Image</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="image" ng-model="category.Image" disabled>
+                        <button type="button" class="btn btn-default" ng-click="ChooseImage()">Choose Image</button>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Short Descripion</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="descripion" ng-model="category.Description">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="status" ng-checked="category.Status" ng-model="category.Status"> Actived
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="homeflag" ng-checked="category.Homeflag" ng-model="category.Homeflag"> Show on home page
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer">
+                <button ui-sref="categories" class="btn btn-default">Cancel</button>
+                <button type="submit" class="btn btn-success pull-right">Save</button>
+            </div>
+            <!-- /.box-footer -->
+        </form>
+    </div>
+</section>

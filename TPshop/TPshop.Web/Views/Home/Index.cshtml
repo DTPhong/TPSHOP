@@ -1,0 +1,211 @@
+﻿@model TPshop.Web.Models.HomeViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layouts.cshtml";
+}
+<!-- SECTION -->
+<div class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            @foreach (var category in Model.ListCategory)
+            {
+                var url = "/" + category.Alias + ".c-" + category.ID + ".html/";
+                <!-- shop -->
+                <div class="col-md-4 col-xs-6">
+                    <div class="shop">
+                        <div class="shop-img">
+                            <img src="@category.Image" alt="">
+                        </div>
+                        <div class="shop-body">
+                            <h3>@category.Name<br>Collection</h3>
+                            <a href="@url" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /shop -->
+            }
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /SECTION -->
+<!-- SECTION -->
+<div class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+
+            <!-- section title -->
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h3 class="title">New Products</h3>
+                </div>
+            </div>
+            <!-- /section title -->
+            <!-- Products tab & slick -->
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="products-tabs">
+                        <!-- tab -->
+                        <div id="tab1" class="tab-pane active">
+                            <div class="products-slick" data-nav="#slick-nav-1">
+
+                                @foreach (var newProduct in Model.LastestProducts)
+                                {
+                                    bool condi = false;
+                                    var url = "/" + newProduct.Alias + ".p-" + newProduct.ID + ".html/";
+                                    <!-- product -->
+                                    <div class="product">
+                                        <div class="product-img">
+                                            <img src="@newProduct.Image" alt="">
+                                            @if (newProduct.Promotion.HasValue)
+                                            {
+                                                var percent = Convert.ToInt32(100 - (newProduct.Promotion / newProduct.Price * 100));
+                                                <div class="product-label">
+                                                    <span class="sale">
+                                                        -@Convert.ToInt32(percent)%
+                                                    </span>
+                                                </div>
+                                            }
+                                        </div>
+                                        <div class="product-body">
+                                            <p class="product-category">
+                                                @*@foreach (var category in Model.ListCategory)
+                                                {
+                                                    if (category.ID == newProduct.CategoryID)
+                                                    {
+                                                        @category.Name
+                                                        break;
+                                                    }
+                                                }*@
+                                                @newProduct.Category.Name
+                                            </p>
+                                            <h3 class="product-name"><a href="#">@newProduct.Name</a></h3>
+                                            @if (newProduct.Promotion.HasValue)
+                                            {
+                                                <h4 class="product-price">$@newProduct.Promotion <del class="product-old-price">$@newProduct.Price</del></h4>
+                                            }
+                                            else if (!newProduct.Price.HasValue || newProduct.Price == 0)
+                                            {
+                                                condi = true;
+                                                <h4 class="product-price">Contact</h4>
+                                            }
+                                            else
+                                            {
+                                                <h4 class="product-price">$@newProduct.Price</h4>
+                                            }
+                                            <div class="product-btns">
+                                                <button class="quick-view" onclick="location.href='@url'"><i class="fa fa-eye"></i><span class="tooltipp">View</span></button>
+                                            </div>
+                                        </div>
+                                        @if (!condi)
+                                        {
+                                            <div class="add-to-cart">
+                                                <button class="add-to-cart-btn btnAddToCart" href="#" data-id="@newProduct.ID"><i class="fa fa-shopping-cart"></i> add to cart</button>
+                                            </div>
+                                        }
+                                    </div>
+                                    <!-- /product -->
+                                }
+                            </div>
+                            <div id="slick-nav-1" class="products-slick-nav"></div>
+                        </div>
+                        <!-- /tab -->
+                    </div>
+                </div>
+            </div>
+            <!-- Products tab & slick -->
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /SECTION -->
+<!-- SECTION -->
+<div class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+
+            <!-- section title -->
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h3 class="title">Top selling</h3>
+                </div>
+            </div>
+            <!-- /section title -->
+            <!-- Products tab & slick -->
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="products-tabs">
+                        <!-- tab -->
+                        <div id="tab2" class="tab-pane fade in active">
+                            <div class="products-slick" data-nav="#slick-nav-2">
+                                @foreach (var newProduct in Model.TopSaleProducts)
+                                {
+                                    bool condi = false;
+                                    var url = "/" + newProduct.Alias + ".p-" + newProduct.ID + ".html/";
+                                    <!-- product -->
+                                <div class="product">
+                                    <div class="product-img">
+                                        <img src="@newProduct.Image" alt="">
+                                        @if (newProduct.Promotion.HasValue)
+                                        {
+                                            var percent = Convert.ToInt32(100 - (newProduct.Promotion / newProduct.Price * 100));
+                                            <div class="product-label">
+                                                <span class="sale">
+                                                    -@Convert.ToInt32(percent)%
+                                                </span>
+                                            </div>
+                                        }
+                                    </div>
+                                    <div class="product-body">
+                                        <p class="product-category">
+                                            @newProduct.Category.Name
+                                        </p>
+                                        <h3 class="product-name"><a href="#">@newProduct.Name</a></h3>
+                                        @if (newProduct.Promotion.HasValue)
+                                        {
+                                            <h4 class="product-price">$@newProduct.Promotion <del class="product-old-price">$@newProduct.Price</del></h4>
+                                        }
+                                        else if (!newProduct.Price.HasValue || newProduct.Price == 0)
+                                        {
+                                            condi = true;
+                                            <h4 class="product-price">Contact</h4>
+                                        }
+                                        else
+                                        {
+                                            <h4 class="product-price">$@newProduct.Price</h4>
+                                        }
+                                        <div class="product-btns">
+                                            <button class="quick-view" onclick="location.href='@url'"><i class="fa fa-eye"></i><span class="tooltipp">View</span></button>
+                                        </div>
+                                    </div>
+                                    @if (!condi)
+                                    {
+                                        <div class="add-to-cart">
+                                            <button class="add-to-cart-btn btnAddToCart" href="#" data-id="@newProduct.ID"><i class="fa fa-shopping-cart"></i> add to cart</button>
+                                        </div>
+                                    }
+                                </div>
+                                    <!-- /product -->
+                                }
+                            </div>
+                            <div id="slick-nav-2" class="products-slick-nav"></div>
+                        </div>
+                        <!-- /tab -->
+                    </div>
+                </div>
+            </div>
+            <!-- /Products tab & slick -->
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /SECTION -->

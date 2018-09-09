@@ -1,0 +1,41 @@
+﻿<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        Category management
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Homepage</a></li>
+        <li><a ui-sref="categories">Category</a></li>
+        <li class="active">Add new</li>
+    </ol>
+</section>
+<!-- Main content -->
+<section class="content">
+
+    <div class="box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title">Add new category</h3>
+        </div>
+        <!-- /.box-header -->
+        <!-- form start -->
+        <form class="form-horizontal" novalidate name="frmAddCategory" role="form" ng-submit="AddCategoryGroup()">
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Name</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" required name="name" ng-model="category.Name" ng-maxlength="256">
+                        <span ng-show="frmAddCategory.name.$invalid" class="has-error">Must input category name.</span>
+                        <span ng-show="frmAddCategory.name.$error.maxlength" class="has-error">Category name must only have 256 characters.</span>
+                    </div>
+                </div>
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer">
+                <button ui-sref="categories" class="btn btn-default">Cancel</button>
+                <button type="submit" ng-disabled="frmAddCategory.$invalid" class="btn btn-success pull-right">Save</button>
+            </div>
+            <!-- /.box-footer -->
+        </form>
+    </div>
+</section>

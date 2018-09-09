@@ -1,0 +1,174 @@
+﻿<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        Product management
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Homepage</a></li>
+        <li><a ui-sref="products">Product management</a></li>
+        <li class="active">Add new product detail</li>
+    </ol>
+</section>
+<!-- Main content -->
+<section class="content">
+
+    <div class="box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title">Add new product detail</h3>
+        </div>
+        <!-- /.box-header -->
+        <!-- form start -->
+        <form class="form-horizontal" novalidate name="frmAddProduct" role="form" ng-submit="UpdateProduct()">
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">CPU</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" ng-model="product.CPU" ng-maxlength="256">
+                    </div>
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Ram</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" ng-model="product.Ram" ng-maxlength="256">
+                    </div>
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Bus</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" ng-model="product.Bus" ng-maxlength="256">
+                    </div>
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">RamMax</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" ng-model="product.RamMax" ng-maxlength="256">
+                    </div>
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">VGA</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" ng-model="product.VGA" ng-maxlength="256">
+                    </div>
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Storage</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" ng-model="product.Storage" ng-maxlength="256">
+                    </div>
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">StorageType</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" ng-model="product.StorageType" ng-maxlength="256">
+                    </div>
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Monitor</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" ng-model="product.Monitor" ng-maxlength="256">
+                    </div>
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Resolution</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" ng-model="product.Resolution" ng-maxlength="256">
+                    </div>
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">BatteryCapacity</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" ng-model="product.BatteryCapacity" ng-maxlength="256">
+                    </div>
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">BatteryCell</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" ng-model="product.BatteryCell" ng-maxlength="256">
+                    </div>
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Webcam</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" ng-model="product.Webcam" ng-maxlength="256">
+                    </div>
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Size</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" ng-model="product.Size" ng-maxlength="256">
+                    </div>
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Weight</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" ng-model="product.Weight" ng-maxlength="256">
+                    </div>
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">OS</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" ng-model="product.OS" ng-maxlength="256">
+                    </div>
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Warranty</label>
+
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" ng-model="product.Warranty" ng-maxlength="256">
+                    </div>
+                </div>
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer">
+                <button ui-sref="products" class="btn btn-default">Cancel</button>
+                <button type="submit" class="btn btn-success pull-right">Save</button>
+            </div>
+            <!-- /.box-footer -->
+        </form>
+    </div>
+</section>

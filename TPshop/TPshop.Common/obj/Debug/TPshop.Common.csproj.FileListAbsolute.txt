@@ -1,0 +1,17 @@
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Common\bin\Debug\TPshop.Common.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Common\bin\Debug\TPshop.Common.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Common\obj\Debug\TPshop.Common.csprojResolveAssemblyReference.cache
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Common\obj\Debug\TPshop.Common.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Common\obj\Debug\TPshop.Common.pdb
+D:\Temp\TPshop\TPshop.Common\bin\Debug\TPshop.Common.dll
+D:\Temp\TPshop\TPshop.Common\bin\Debug\TPshop.Common.pdb
+D:\Temp\TPshop\TPshop.Common\obj\Debug\TPshop.Common.dll
+D:\Temp\TPshop\TPshop.Common\obj\Debug\TPshop.Common.pdb
+D:\Temp\TPshop\TPshop.Common\obj\Debug\TPshop.Common.csprojAssemblyReference.cache
+D:\Temp\TPshop\TPshop.Common\obj\Debug\TPshop.Common.csproj.CoreCompileInputs.cache
+C:\Users\kasss\Desktop\TPshop\TPshop.Common\bin\Debug\TPshop.Common.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Common\bin\Debug\TPshop.Common.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.Common\obj\Debug\TPshop.Common.csprojAssemblyReference.cache
+C:\Users\kasss\Desktop\TPshop\TPshop.Common\obj\Debug\TPshop.Common.csproj.CoreCompileInputs.cache
+C:\Users\kasss\Desktop\TPshop\TPshop.Common\obj\Debug\TPshop.Common.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Common\obj\Debug\TPshop.Common.pdb

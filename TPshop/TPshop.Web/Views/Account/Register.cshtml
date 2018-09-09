@@ -1,0 +1,79 @@
+﻿@model TPshop.Web.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/Layouts.cshtml";
+}
+
+<!-- BREADCRUMB -->
+<div id="breadcrumb" class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="breadcrumb-header">Registry</h3>
+                <ul class="breadcrumb-tree">
+                    <li><a href="#">Home</a></li>
+                    <li class="active">Registry</li>
+                </ul>
+            </div>
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /BREADCRUMB -->
+<!-- SECTION -->
+<div class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+
+            <div class="col-md-7">
+                @using (Html.BeginForm("Register", "Account", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken();
+                    @Html.ValidationSummary(false, "", new { @class = "error" })
+
+
+                    <!-- Billing Details -->
+                    <div class="billing-details">
+                        <div class="section-title">
+                            <h3 class="title">Register form</h3>
+                        </div>
+                        @if (TempData["SuccessMSG"] != null)
+                        {
+                            <div class="alert alert-success" role="alert">
+                                <strong>Register success. Now you can login.</strong>
+                            </div>
+                        }
+                        <div class="form-group">
+                            @Html.TextBoxFor(model => model.FullName, new { @class = "input", @placeholder = "Full Name" })
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(model => model.Email, new { @class = "input", @placeholder = "Email abc@example.com" })
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(model => model.Address, new { @class = "input", @placeholder = "Address" })
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(model => model.PhoneNumber, new { @class = "input", @type = "number", @placeholder = "Phone number" })
+                        </div>
+                        <div class="form-group">
+                            @Html.TextBoxFor(model => model.UserName, new { @class = "input", @placeholder = "UserName" })
+                        </div>
+                        <div class="form-group">
+                            @Html.PasswordFor(model => model.Password, new { @class = "input", @placeholder = "Password" })
+                        </div>
+                    </div>
+                    <input type="submit" class="primary-btn order-submit" value="Sign up" />
+                    <!-- /Billing Details -->
+                }
+            </div>
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /SECTION -->

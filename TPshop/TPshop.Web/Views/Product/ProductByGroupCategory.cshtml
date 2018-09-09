@@ -1,0 +1,276 @@
+﻿@model TPshop.Web.Infrastructure.Core.PaginationSet<TPshop.Web.Models.ProductViewModel>
+
+@{
+    ViewBag.Title = "ProductByGroupCategory";
+    Layout = "~/Views/Shared/Layouts.cshtml";
+}
+
+<!-- BREADCRUMB -->
+<div id="breadcrumb" class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="breadcrumb-tree">
+                    <li><a href="#">Home</a></li>
+                    <li class="active">@ViewBag.CategoryGroup.Name (@Model.Items.Count() Results)</li>
+                </ul>
+            </div>
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /BREADCRUMB -->
+<!-- SECTION -->
+<div class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <!-- ASIDE -->
+            <div id="aside" class="col-md-3">
+                @if (Model.Items.Count() > 0)
+                {
+                    <!-- aside Widget -->
+                    <div class="aside">
+                        <h3 class="aside-title">Categories</h3>
+                        <div class="checkbox-filter">
+                            @foreach (var category in ViewBag.Category)
+                            {
+                                foreach (var product in Model.Items)
+                                {
+                                    if (category.ID == product.CategoryID)
+                                    {
+                                        var url = "/" + category.Alias + ".c-" + category.ID + ".html/";
+                                        <div class="input-checkbox">
+                                            <a href="@url">
+                                                <label for="category-1">
+                                                    <span></span>
+                                                    @category.Name
+                                                    <small>(@Model.Items.Where(x => x.CategoryID == category.ID).Count())</small>
+                                                </label>
+                                            </a>
+                                        </div>
+                                        break;
+                                    }
+                                }
+                            }
+                        </div>
+                    </div>
+                    <!-- /aside Widget -->
+                    <!-- aside Widget -->
+                    @*<div class="aside">
+                            <h3 class="aside-title">Price</h3>
+                            <div class="price-filter">
+                                <div id="price-slider"></div>
+                                <div class="input-number price-min">
+                                    <input id="price-min" type="number">
+                                    <span class="qty-up">+</span>
+                                    <span class="qty-down">-</span>
+                                </div>
+                                <span>-</span>
+                                <div class="input-number price-max">
+                                    <input id="price-max" type="number">
+                                    <span class="qty-up">+</span>
+                                    <span class="qty-down">-</span>
+                                </div>
+                            </div>
+                        </div>*@
+                    <!-- /aside Widget -->
+                    <!-- aside Widget -->
+                    <div class="aside">
+                        <h3 class="aside-title">Brand</h3>
+                        <div class="checkbox-filter">
+                            @foreach (var supplier in ViewBag.Supplier)
+                            {
+                                foreach (var product in Model.Items)
+                                {
+                                    if (supplier.ID == product.SupplierID)
+                                    {
+                                        <div class="input-checkbox">
+                                            <a href="?brand=@supplier.ID">
+                                                <label for="category-1">
+                                                    <span></span>
+                                                    @supplier.Name
+                                                    <small>(@Model.Items.Where(x => x.SupplierID == supplier.ID).Count())</small>
+                                                </label>
+                                            </a>
+                                        </div>
+                                        break;
+                                    }
+                                }
+                            }
+                        </div>
+                    </div>
+                    <!-- /aside Widget -->
+                }
+
+                <!-- aside Widget -->
+                <div class="aside">
+                    <h3 class="aside-title">Top selling</h3>
+                    @foreach (var item in ViewBag.relateProduct)
+                    {
+                        <div class="product-widget">
+                            <div class="product-img">
+                                <img src="@item.Image" alt="">
+                            </div>
+                            <div class="product-body">
+                                <p class="product-category">@item.Category.Name</p>
+                                <h3 class="product-name"><a href="#">@item.Name</a></h3>
+                                @if (item.Promotion != null)
+                                {
+                                    <h4 class="product-price">$@item.Promotion <del class="product-old-price">$@item.Price</del></h4>
+                                }
+                                else
+                                {
+                                    <h4 class="product-price">$@item.Price</h4>
+                                }
+                            </div>
+                        </div>
+                    }
+                </div><!-- /aside Widget -->
+            </div><!-- /ASIDE --><!-- STORE --><div id="store" class="col-md-9">
+                @if (Model.Items.Count() > 0)
+                {
+                    <!-- store top filter -->
+                    <div class="store-filter clearfix">
+                        <div class="store-sort">
+                            <label>
+                                Sort By:
+                                <select class="input-select" onchange="location=this.value">
+                                    <option value="?page=@Model.Page&sort=">Newest</option>
+                                    <option value="?page=@Model.Page&sort=popular">Most popular</option>
+                                    <option value="?page=@Model.Page&sort=discount">Discount</option>
+                                    <option value="?page=@Model.Page&sort=price">Price low to high</option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- /store top filter -->
+                    <!-- store products -->
+                    <div class="row">
+                        @foreach (var product in Model.Items)
+                        {
+                            bool condi = false;
+                            var url = "/" + product.Alias + ".p-" + product.ID + ".html/";
+                            <!-- product -->
+                            <div class="col-md-4 col-xs-6">
+                                <div class="product">
+                                    <div class="product-img">
+                                        <img src="@product.Image" alt="">
+                                        @if (product.Promotion.HasValue)
+                                        {
+                                            var percent = Convert.ToInt32(100 - (product.Promotion / product.Price * 100));
+                                            <div class="product-label">
+                                                <span class="sale">
+                                                    -@Convert.ToInt32(percent)%
+                                                </span>
+                                            </div>
+                                        }
+                                    </div>
+                                    <div class="product-body">
+                                        <p class="product-category">
+                                            @*@foreach (var category in Model.ListCategory)
+                                                {
+                                                    if (category.ID == newProduct.CategoryID)
+                                                    {
+                                                        @category.Name
+                                                        break;
+                                                    }
+                                                }*@
+                                            @product.Category.Name
+                                        </p>
+                                        <h3 class="product-name"><a href="#">@product.Name</a></h3>
+                                        @if (product.Promotion.HasValue)
+                                        {
+                                            <h4 class="product-price">$@product.Promotion <del class="product-old-price">$@product.Price</del></h4>
+                                        }
+                                        else if (!product.Price.HasValue || product.Price == 0)
+                                        {
+                                            condi = true;
+                                            <h4 class="product-price">Contact</h4>
+                                        }
+                                        else
+                                        {
+                                            <h4 class="product-price">$@product.Price</h4>
+                                        }
+                                        <div class="product-btns">
+                                            <button class="quick-view" onclick="location.href='@url'"><i class="fa fa-eye"></i><span class="tooltipp">View</span></button>
+                                        </div>
+                                    </div>
+                                    @if (!condi)
+                                    {
+                                        <div class="add-to-cart">
+                                            <button class="add-to-cart-btn btnAddToCart" href="#" data-id="@product.ID"><i class="fa fa-shopping-cart"></i> add to cart</button>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                            <!-- /product -->
+
+                            <div class="clearfix visible-sm visible-xs"></div>
+                        }
+                    </div>
+                    <!-- /store products -->
+                    <!-- store bottom filter -->
+                    if (Model.TotalPages > 1)
+                    {
+                        // Create numeric links
+                        var startPageIndex = Math.Max(1, Model.Page - Model.MaxPage / 2);
+                        var endPageIndex = Math.Min(Model.TotalPages, Model.Page + Model.MaxPage / 2);
+
+                        <div class="store-filter clearfix">
+                            <ul class="store-pagination">
+                                @if (Model.Page > 1)
+                                {
+                                    <li>
+                                        <a href="?page=1">
+                                            <i class="fa fa-angle-double-left"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="?page=@(Model.Page-1)">
+                                            <i class="fa fa-angle-left"></i>
+                                        </a>
+                                    </li>
+                                }
+
+                                @for (int i = startPageIndex; i <= endPageIndex; i++)
+                                {
+                                    if (Model.Page == i)
+                                    {
+                                        <li class="active"><a href="?page=@i" title="Trang @i">@i</a></li>
+                                    }
+                                    else
+                                    {
+                                        <li><a href="?page=@i" title="Trang @i">@i</a></li>
+                                    }
+                                }
+                                @if (Model.Page < Model.TotalPages)
+                                {
+                                    <li>
+                                        <a href="?page=@(Model.Page+1)">
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="?page=@Model.TotalPages">
+                                            <i class="fa fa-angle-double-right"></i>
+                                        </a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    }
+                    <!-- /store bottom filter -->
+                }
+            </div>
+            <!-- /STORE -->
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /SECTION -->

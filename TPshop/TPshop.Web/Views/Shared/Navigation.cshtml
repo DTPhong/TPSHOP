@@ -1,0 +1,28 @@
+﻿@model IEnumerable<TPshop.Web.Models.CategoryGroupViewModel>
+@{
+    Layout = null;
+}
+
+<!-- NAVIGATION -->
+<nav id="navigation">
+    <!-- container -->
+    <div class="container">
+        <!-- responsive-nav -->
+        <div id="responsive-nav">
+            <!-- NAV -->
+            <ul class="main-nav nav navbar-nav">
+                <li class="active"><a href="/homepage.html">Home</a></li>
+                @foreach (var category in Model)
+                {
+                    var url = "/cg-" + category.ID + ".html/";
+                    <li class=""><a href="@url">@category.Name</a></li>
+                }
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+            <!-- /NAV -->
+        </div>
+        <!-- /responsive-nav -->
+    </div>
+    <!-- /container -->
+</nav>
+<!-- /NAVIGATION -->

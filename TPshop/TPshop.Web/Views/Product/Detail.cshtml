@@ -1,0 +1,297 @@
+﻿@model TPshop.Web.Models.ProductViewModel
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/Layouts.cshtml";
+}
+
+<!-- BREADCRUMB -->
+<div id="breadcrumb" class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="breadcrumb-tree">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">@ViewBag.CategoryGroup</a></li>
+                    <li><a href="#">@ViewBag.Category</a></li>
+                    <li><a href="#">@Model.Name</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /BREADCRUMB -->
+<!-- SECTION -->
+<div class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <!-- Product main img -->
+            <div class="col-md-5 col-md-push-2">
+                <div id="product-main-img">
+                    <div class="product-preview">
+                        <img src="@Model.Image" alt="">
+                    </div>
+                    @{
+                        var moreImages = (List<string>)ViewBag.MoreImages;
+                        if (moreImages.Count > 0)
+                        {
+                            foreach (var image in moreImages)
+                            {
+                                <div class="product-preview">
+                                    <img src="@image" alt="">
+                                </div>
+                            }
+                        }
+                    }
+                </div>
+            </div>
+            <!-- /Product main img -->
+            <!-- Product thumb imgs -->
+            <div class="col-md-2  col-md-pull-5">
+                <div id="product-imgs">
+                    <div class="product-preview">
+                        <img src="@Model.Image" alt="">
+                    </div>
+                    @{
+                        if (moreImages.Count > 0)
+                        {
+                            foreach (var image in moreImages)
+                            {
+                                <div class="product-preview">
+                                    <img src="@image" alt="">
+                                </div>
+                            }
+                        }
+                    }
+                </div>
+            </div>
+            <!-- /Product thumb imgs -->
+            <!-- Product details -->
+            <div class="col-md-5">
+                <div class="product-details">
+                    <h2 class="product-name">@Model.Name</h2>
+                    <div>
+                        @if (Model.Promotion.HasValue)
+                        {
+                            <h3 class="product-price">$@Model.Promotion <del class="product-old-price">$@Model.Price</del></h3>
+                            <span class="product-available">In Stock</span>
+                        }
+                        else if (!Model.Price.HasValue || Model.Price == 0)
+                        {
+                            <h3 class="product-price">Contact</h3>
+                        }
+                        else
+                        {
+                            <h3 class="product-price">$@Model.Price</h3>
+                            <span class="product-available">In Stock</span>
+                        }
+                    </div>
+                    <p>@Model.Description</p>
+
+                    <div class="add-to-cart">
+                        @if (Model.Price.HasValue || Model.Promotion.HasValue)
+                        {
+                            <button class="add-to-cart-btn btnAddToCart" data-id="@Model.ID"><i class="fa fa-shopping-cart"></i> add to cart</button>
+                        }
+                    </div>
+
+                    <ul class="product-links">
+                        <li>Category:</li>
+                        <li><a href="#">@ViewBag.CategoryGroup</a></li>
+                        <li><a href="#">@ViewBag.Category</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /Product details -->
+            <!-- Product tab -->
+            <div class="col-md-12">
+                <div id="product-tab">
+                    <!-- product tab nav -->
+                    <ul class="tab-nav">
+                        <li class="active"><a data-toggle="tab" href="#tab1">Content</a></li>
+                        <li><a data-toggle="tab" href="#tab2">Details</a></li>
+                    </ul>
+                    <!-- /product tab nav -->
+                    <!-- product tab content -->
+                    <div class="tab-content">
+                        <!-- tab1  -->
+                        <div id="tab1" class="tab-pane fade in active">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div>
+                                        @Html.Raw(Model.Content)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /tab1  -->
+                        <!-- tab2  -->
+                        <div id="tab2" class="tab-pane fade in">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul class="list-group" style="max-width : 100%;">
+
+
+                                        <li  class="list-group-item list-group-item-danger">CPU</li>
+                                        <li class="list-group-item">
+                                            <label>CPU :</label>
+                                            <span><a>	 @Model.CPU</a></span>
+                                        </li>
+                                        <li  class="list-group-item list-group-item-danger">Mainboard</li>
+                                        <li class="list-group-item">
+                                            <label>Max RAM support :</label>
+                                            <span>	@Model.RamMax GB</span>
+                                        </li>
+                                        <li  class="list-group-item list-group-item-danger">RAM</li>
+                                        <li class="list-group-item">
+                                            <label>RAM capacity :</label>
+                                            <span>@Model.Ram GB</span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <label>BUS RAM :</label>
+                                            <span>@Model.Bus MHz</span>
+                                        </li>
+                                        <li  class="list-group-item list-group-item-danger">Hard drive</li>
+                                        <li class="list-group-item">
+                                            <label>Hard drive type :</label>
+                                            <span><a>@Model.StorageType</a></span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <label>Storage :</label>
+                                            <span>@Model.Storage GB</span>
+                                        </li>
+                                        <li  class="list-group-item list-group-item-danger">VGA</li>
+                                        <li class="list-group-item">
+                                            <label>VGA  :</label>
+                                            <span><a>@Model.VGA</a></span>
+                                        </li>
+                                        <li  class="list-group-item list-group-item-danger">Monitor</li>
+                                        <li class="list-group-item">
+                                            <label>Monitor size :</label>
+                                            <span><a>	@Model.Monitor inch</a></span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <label>Resolution (W x H) :</label>
+                                            <span>@Model.Resolution pixels </span>
+                                        </li>
+                                        
+                                        <li  class="list-group-item list-group-item-danger">Webcam</li>
+                                        <li class="list-group-item">
+                                            <label>Resolution :</label>
+                                            <span>@Model.Webcam MP</span>
+                                        </li>                                        
+                                        <li  class="list-group-item list-group-item-danger">Operting system</li>
+                                        <li class="list-group-item">
+                                            <label>Operting system :</label>
+                                            <span><a>	 @Model.OS</a></span>
+                                        </li>
+                                        <li  class="list-group-item list-group-item-danger">PIN/Battery</li>
+                                        <li class="list-group-item">
+                                            <label>Pin cell :</label>
+                                            <span>@Model.BatteryCell cell</span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <label>Capacity pin :</label>
+                                            <span><a>@Model.BatteryCapacity</a></span>
+                                        </li>                                        
+                                        <li  class="list-group-item list-group-item-danger">Size &amp; Weight</li>
+                                        <li class="list-group-item">
+                                            <label>Size :</label>
+                                            <span>@Model.Size mm</span>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <label>Weight :</label>
+                                            <span>@Model.Weight Kg</span>
+                                        </li>
+                                        <li  class="list-group-item list-group-item-danger">Warranty</li>
+                                        <li class="list-group-item">
+                                            <label>Warranty :</label>
+                                            <span>@Model.Warranty months</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /tab2  -->
+                    </div>
+                    <!-- /product tab content  -->
+                </div>
+            </div>
+            <!-- /product tab -->
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /SECTION -->
+<!-- Section -->
+<div class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="section-title text-center">
+                    <h3 class="title">Related Products</h3>
+                </div>
+            </div>
+            @foreach (var product in ViewBag.RelatedProduct)
+            {
+                var url = "/" + product.Alias + ".p-" + product.ID + ".html/";
+                <!-- product -->
+                <div class="col-md-3 col-xs-6">
+                    <div class="product">
+                        <div class="product-img">
+                            <img src="@product.Image" alt="">
+                            @if (product.Promotion != null)
+                            {
+                                var percent = Convert.ToInt32(100 - (product.Promotion / product.Price * 100));
+                                <div class="product-label">
+                                    <span class="sale">
+                                        -@percent%
+                                    </span>
+                                </div>
+                            }
+                        </div>
+                        <div class="product-body">
+                            <p class="product-category">ViewBag.Category</p>
+                            <h3 class="product-name"><a href="#">@product.Name</a></h3>
+                            @if (product.Promotion != null)
+                            {
+                                <h4 class="product-price">$@product.Promotion <del class="product-old-price">$@product.Price</del></h4>
+                            }
+                            else if (product.Price == null || product.Price == 0)
+                            {
+                                <h4 class="product-price">Contact</h4>
+                            }
+                            else
+                            {
+                                <h4 class="product-price">$@product.Price</h4>
+                            }
+                            <div class="product-btns">
+                                <button class="quick-view" onclick="location.href='@url'"><i class="fa fa-eye"></i><span class="tooltipp">View</span></button>
+                            </div>
+                        </div>
+                        <div class="add-to-cart">
+                            <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- /product -->
+                <div class="clearfix visible-sm visible-xs"></div>
+            }
+
+            <!-- /product -->
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /Section -->

@@ -1,0 +1,106 @@
+﻿@{
+    //ViewBag.Title = "Index";
+    //Layout = "~/Views/Shared/Layouts.cshtml";
+    Layout = null;
+}
+
+@*<div id="breadcrumb" class="section">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="breadcrumb-header">Regular Page</h3>
+                    <ul class="breadcrumb-tree">
+                        <li><a href="#">Home</a></li>
+                        <li class="active">Blank</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <div class="section">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <div class="single_top">
+                    <div class="single_grid">
+                        <div id="cartContent">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <td>STT</td>
+                                        <td>Tên sản phẩm</td>
+                                        <td>Hình ảnh</td>
+                                        <td>Giá</td>
+                                        <td>Số lượng</td>
+                                        <td>Thành tiền</td>
+                                        <td>#</td>
+                                    </tr>
+                                </thead>
+                                <tbody id="cartBody"></tbody>
+                            </table>
+                            <button class="btn btn-success" id="btnContinue">Tiếp tục mua hàng</button>
+                            <button class="btn btn-danger" id="btnDeleteAll">Xóa giỏ hàng</button>
+                            <button class="btn btn" id="btnCheckout">Thanh toán</button>
+                            <div class="pull-right">
+                                Tổng tiền: <span id="lblTotalOrder"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+
+    <script id="tplCart" type="x-tmpl-mustache">
+        <tr>
+            <td>{{ProductId}}</td>
+            <td>{{ProductName}}</td>
+            <td><img src="{{Image}}" height="50" /></td>
+            <td>{{Price}}</td>
+            <td><input type="number" data-id="{{ProductId}}" data-price="{{Price}}" value="{{Quantity}}" class="input txtQuantity" /></td>
+            <td id="amount_{{ProductId}}">{{Amount}}</td>
+            <td><button class="btn btn-danger btnDeleteItem" data-id="{{ProductId}}"><i class="fa fa-close"></i></button></td>
+        </tr>
+    </script>*@
+
+<div class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+        <i class="fa fa-shopping-cart"></i>
+        <span>Your Cart</span>
+        <div class="quantity qty">0</div>
+    </a>
+    <div class="cart-dropdown">
+        <div class="cart-list" id="cartBody">
+        </div>
+        <div class="cart-summary">
+            <small><span class="quantity">0</span> Item(s) selected</small>
+            <h5>SUBTOTAL: $<span class="totalPrice">0</span></h5>
+        </div>
+        <div class="cart-btns">
+            @*<a href="#">View Cart</a>*@
+            <a href="/checkout.html">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+</div>
+
+<script id="tplCart" type="x-tmpl-mustache">
+    <div class="product-widget">
+        <div class="product-img">
+            <img src="{{Image}}" alt="">
+        </div>
+        <div class="product-body">
+            <h3 class="product-name"><a href="#">{{ProductName}}</a></h3>
+            <h4 class="product-price"><span class="qty quantityP" data-value="{{Quantity}}" data-price="{{Price}}">{{Quantity}}x</span>${{Price}}</h4>
+            <button class="plus" data-id="{{ProductId}}"><i class="fa fa-plus"></i></button>
+            <button class="minus" data-id="{{ProductId}}"><i class="fa fa-minus"></i></button>
+        </div>
+        <button class="delete" data-id="{{ProductId}}"><i class="fa fa-close"></i></button>
+    </div>
+</script>

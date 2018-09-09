@@ -1,0 +1,160 @@
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\roslyn\csc.exe
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\roslyn\vbc.exe
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\TPshop.UnitTest.dll.config
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\TPshop.UnitTest.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\TPshop.UnitTest.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Castle.Core.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\EntityFramework.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Moq.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.ValueTuple.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Common.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Data.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Model.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Service.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Web.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.Owin.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Web.Optimization.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Web.Mvc.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Web.Http.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Owin.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Autofac.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\AutoMapper.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Autofac.Integration.WebApi.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Web.Razor.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Web.WebPages.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Common.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Data.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Model.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Service.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Web.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Castle.Core.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\EntityFramework.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Moq.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Moq.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.ValueTuple.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.Owin.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Web.Optimization.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Web.Mvc.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Web.Http.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Autofac.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\AutoMapper.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Autofac.Integration.WebApi.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Autofac.Integration.WebApi.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Web.Razor.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Web.WebPages.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\obj\Debug\TPshop.UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\obj\Debug\TPshop.UnitTest.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\obj\Debug\TPshop.UnitTest.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\TPshop.UnitTest.dll.config
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\TPshop.UnitTest.dll
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\TPshop.UnitTest.pdb
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\Castle.Core.dll
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\EntityFramework.dll
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\Moq.dll
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\System.ValueTuple.dll
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Common.dll
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Data.dll
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Model.dll
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Service.dll
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Common.pdb
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Data.pdb
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Model.pdb
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Service.pdb
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\Castle.Core.xml
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\EntityFramework.xml
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\Moq.pdb
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\Moq.xml
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\System.ValueTuple.xml
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Temp\TPshop\TPshop.UnitTest\obj\Debug\TPshop.UnitTest.dll
+D:\Temp\TPshop\TPshop.UnitTest\obj\Debug\TPshop.UnitTest.pdb
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Data.dll.config
+D:\Temp\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Model.dll.config
+D:\Temp\TPshop\TPshop.UnitTest\obj\Debug\TPshop.UnitTest.csprojAssemblyReference.cache
+D:\Temp\TPshop\TPshop.UnitTest\obj\Debug\TPshop.UnitTest.csproj.CoreCompileInputs.cache
+D:\Temp\TPshop\TPshop.UnitTest\obj\Debug\TPshop.UnitTest.csproj.CopyComplete
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\TPshop.UnitTest.dll.config
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\TPshop.UnitTest.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\TPshop.UnitTest.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\Castle.Core.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\EntityFramework.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\Moq.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\System.ValueTuple.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Common.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Data.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Model.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Service.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Common.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Data.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Data.dll.config
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Model.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Model.dll.config
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\TPshop.Service.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\Castle.Core.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\EntityFramework.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\Moq.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\Moq.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\System.ValueTuple.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\obj\Debug\TPshop.UnitTest.csprojAssemblyReference.cache
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\obj\Debug\TPshop.UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\obj\Debug\TPshop.UnitTest.csproj.CopyComplete
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\obj\Debug\TPshop.UnitTest.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.UnitTest\obj\Debug\TPshop.UnitTest.pdb

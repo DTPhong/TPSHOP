@@ -1,0 +1,57 @@
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Service\bin\Debug\TPshop.Service.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Service\bin\Debug\TPshop.Service.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Service\bin\Debug\TPshop.Common.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Service\bin\Debug\TPshop.Data.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Service\bin\Debug\TPshop.Model.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Service\bin\Debug\EntityFramework.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Service\bin\Debug\TPshop.Common.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Service\bin\Debug\TPshop.Data.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Service\bin\Debug\TPshop.Model.pdb
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Service\bin\Debug\EntityFramework.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Service\obj\Debug\TPshop.Service.csprojResolveAssemblyReference.cache
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Service\obj\Debug\TPshop.Service.dll
+C:\Users\kasss\documents\visual studio 2015\Projects\TPshop\TPshop.Service\obj\Debug\TPshop.Service.pdb
+D:\Temp\TPshop\TPshop.Service\bin\Debug\TPshop.Service.dll
+D:\Temp\TPshop\TPshop.Service\bin\Debug\TPshop.Service.pdb
+D:\Temp\TPshop\TPshop.Service\bin\Debug\TPshop.Common.dll
+D:\Temp\TPshop\TPshop.Service\bin\Debug\TPshop.Data.dll
+D:\Temp\TPshop\TPshop.Service\bin\Debug\TPshop.Model.dll
+D:\Temp\TPshop\TPshop.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Temp\TPshop\TPshop.Service\bin\Debug\EntityFramework.dll
+D:\Temp\TPshop\TPshop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Temp\TPshop\TPshop.Service\bin\Debug\TPshop.Common.pdb
+D:\Temp\TPshop\TPshop.Service\bin\Debug\TPshop.Data.pdb
+D:\Temp\TPshop\TPshop.Service\bin\Debug\TPshop.Model.pdb
+D:\Temp\TPshop\TPshop.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Temp\TPshop\TPshop.Service\bin\Debug\EntityFramework.xml
+D:\Temp\TPshop\TPshop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Temp\TPshop\TPshop.Service\obj\Debug\TPshop.Service.dll
+D:\Temp\TPshop\TPshop.Service\obj\Debug\TPshop.Service.pdb
+D:\Temp\TPshop\TPshop.Service\bin\Debug\TPshop.Data.dll.config
+D:\Temp\TPshop\TPshop.Service\bin\Debug\TPshop.Model.dll.config
+D:\Temp\TPshop\TPshop.Service\obj\Debug\TPshop.Service.csprojAssemblyReference.cache
+D:\Temp\TPshop\TPshop.Service\obj\Debug\TPshop.Service.csproj.CoreCompileInputs.cache
+D:\Temp\TPshop\TPshop.Service\obj\Debug\TPshop.Service.csproj.CopyComplete
+C:\Users\kasss\Desktop\TPshop\TPshop.Service\bin\Debug\TPshop.Service.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Service\bin\Debug\TPshop.Service.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.Service\bin\Debug\TPshop.Common.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Service\bin\Debug\TPshop.Data.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Service\bin\Debug\TPshop.Model.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Service\bin\Debug\EntityFramework.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Service\bin\Debug\TPshop.Common.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.Service\bin\Debug\TPshop.Data.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.Service\bin\Debug\TPshop.Data.dll.config
+C:\Users\kasss\Desktop\TPshop\TPshop.Service\bin\Debug\TPshop.Model.pdb
+C:\Users\kasss\Desktop\TPshop\TPshop.Service\bin\Debug\TPshop.Model.dll.config
+C:\Users\kasss\Desktop\TPshop\TPshop.Service\bin\Debug\EntityFramework.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\kasss\Desktop\TPshop\TPshop.Service\obj\Debug\TPshop.Service.csprojAssemblyReference.cache
+C:\Users\kasss\Desktop\TPshop\TPshop.Service\obj\Debug\TPshop.Service.csproj.CoreCompileInputs.cache
+C:\Users\kasss\Desktop\TPshop\TPshop.Service\obj\Debug\TPshop.Service.csproj.CopyComplete
+C:\Users\kasss\Desktop\TPshop\TPshop.Service\obj\Debug\TPshop.Service.dll
+C:\Users\kasss\Desktop\TPshop\TPshop.Service\obj\Debug\TPshop.Service.pdb
